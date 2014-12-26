@@ -38,5 +38,7 @@ int main()
 	fscanf_s(fin, "%s", buffer, 8);
 	printf("%s	: %d\n", buffer, ftell(fin));
 
+	fclose(fin);
+
 	return 0;
 }
